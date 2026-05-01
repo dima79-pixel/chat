@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+main{
+    position: relative;
+    width: 100vh;
+
+}
+.header{
+    position: fixed;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;      
+    background-color: #ffe15c;  
+    color: affff;
+    height: 4.5rem;
+   
+}
+
+ul{
+    list-style: none;
+    padding: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   
+}
+
+li{
+   background-color: #f5c907; 
+   border-radius: 1rem;
+   color: aliceblue;
+   padding: 1rem;
+   font-size: 1.5rem;
+   margin: 0.5rem; 
+}
+
+form{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
+#input{
+    width: 100%;
+    height: 4.5rem;
+    padding: 1rem;
+    font-size: 1.5;
+}
+
+.submit{
+    background-color: #ffe15c;
+    color: affff;
+    padding: 0 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
